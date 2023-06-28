@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    font-family: 'Nanum Gothic Coding', monospace, sans-serif;
+}
+
+body {
+    background-color: rgb(29, 39, 95);
+}
+
+.mainHeaderTitle {
+    text-align: center;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.recipeList ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: none;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.recipeList ul li a {
+    text-decoration: none;
+    color: orange;
+}
