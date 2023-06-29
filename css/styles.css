@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(29, 39, 95);
+    color: whitesmoke;
 }
 
 .mainHeaderTitle {
@@ -25,4 +26,10 @@ body {
 .recipeList ul li a {
     text-decoration: none;
     color: orange;
+}
+
+.recipePageImg {
+    height: auto;
+    width: 300px;
+    display: grid;
 }
